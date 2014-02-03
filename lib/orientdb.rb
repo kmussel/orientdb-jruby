@@ -29,15 +29,17 @@ require 'java'
 # require 'concurrentlinkedhashmap-lru-1.4'
 
 
+# opath = "-1.7-SNAPSHOT.jar"
+opath = "-1.7-rc0.jar"
 
 
 require 'antlr-2.7.7.jar'
 require 'asm-3.2.jar'
-require 'blueprints-core-2.5.0-SNAPSHOT.jar'
+require 'blueprints-core-2.5.0-20140129.150537-29.jar' #'-2.5.0-SNAPSHOT.jar'
 require 'commons-configuration-1.6.jar'
 require 'concurrentlinkedhashmap-lru-1.4.jar'
-require 'gremlin-groovy-2.5.0-SNAPSHOT.jar'
-require 'gremlin-java-2.5.0-SNAPSHOT.jar'
+require 'gremlin-groovy-2.5.0-20140125.153413-8.jar' #'-2.5.0-SNAPSHOT.jar'
+require 'gremlin-java-2.5.0-20140125.153323-8.jar' #'-2.5.0-SNAPSHOT.jar'
 require 'groovy-1.8.9.jar'
 require 'jansi-1.5.jar'
 require 'javassist.jar'
@@ -46,17 +48,18 @@ require 'jna-4.0.0.jar'
 require 'jna-platform-4.0.0.jar'
 require 'junit-4.11.jar'
 require 'mail.jar'
-require 'orient-commons-1.7-SNAPSHOT.jar'
-require 'orientdb-client-1.7-SNAPSHOT.jar'
-require 'orientdb-core-1.7-SNAPSHOT.jar'
-require 'orientdb-distributed-1.7-SNAPSHOT.jar'
-require 'orientdb-enterprise-1.7-SNAPSHOT.jar'
-require 'orientdb-graphdb-1.7-SNAPSHOT.jar'
-require 'orientdb-nativeos-1.7-SNAPSHOT.jar'
-require 'orientdb-object-1.7-SNAPSHOT.jar'
-require 'orientdb-server-1.7-SNAPSHOT.jar'
-require 'orientdb-tools-1.7-SNAPSHOT.jar'
-require 'pipes-2.5.0-SNAPSHOT.jar'
+
+require 'orient-commons'+opath
+require 'orientdb-client'+opath
+require 'orientdb-core'+opath
+require 'orientdb-distributed'+opath
+require 'orientdb-enterprise'+opath
+require 'orientdb-graphdb'+opath
+require 'orientdb-nativeos'+opath
+require 'orientdb-object'+opath
+require 'orientdb-server'+opath
+require 'orientdb-tools'+opath
+require 'pipes-2.5.0-20140125.162807-6.jar' #'-2.5.0-SNAPSHOT.jar'
 require 'sesame-model-2.6.10.jar'
 require 'sesame-query-2.6.10.jar'
 require 'sesame-rio-api-2.6.10.jar'
